@@ -1,0 +1,12 @@
+dependencies:
+- name: gigmatch-backend
+  repository: file://../gigmatch-backend
+  version: 0.1.0
+- name: gigmatch-frontend
+  repository: file://../gigmatch-frontend
+  version: 0.1.0
+- name: mongodb
+  repository: https://charts.bitnami.com/bitnami
+  version: 13.6.4
+digest: sha256:38cfda14b5862ae2f1a6716bca69c52184feae23552c3ab2eb4f26886c35da62
+generated: "2025-07-17T21:37:04.530005+01:00"
