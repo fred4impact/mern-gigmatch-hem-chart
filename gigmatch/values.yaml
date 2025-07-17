@@ -2,7 +2,7 @@ gigmatch-backend:
   image:
     tag: latest
   env:
-    MONGO_URI: "mongodb://mongo:27017/gigmatch"
+    MONGO_URI: "mongodb://gigmatch-mongodb:27017/gigmatch"
 
 gigmatch-frontend:
   image:
