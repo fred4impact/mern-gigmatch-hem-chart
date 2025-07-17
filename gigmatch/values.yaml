@@ -1,11 +1,13 @@
-  gigmatch-backend:
-    image:
-      tag: latest
-    env:
-      MONGO_URI: "mongodb://mongo:27017/gigmatch"
-  gigmatch-frontend:
-    image:
-      tag: latest
-  mongodb:
-    auth:
+gigmatch-backend:
+  image:
+    tag: latest
+  env:
+    MONGO_URI: "mongodb://mongo:27017/gigmatch"
+
+gigmatch-frontend:
+  image:
+    tag: latest
+
+mongodb:
+  auth:
     enabled: false
