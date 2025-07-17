@@ -1,0 +1,20 @@
+   # mongodb-values.yaml
+   auth:
+     enabled: false
+
+   resources:
+     requests:
+       memory: 512Mi
+       cpu: 250m
+     limits:
+       memory: 2Gi
+       cpu: 1
+
+   arbiter:
+     resources:
+       requests:
+         memory: 128Mi
+         cpu: 100m
+       limits:
+         memory: 512Mi
+         cpu: 250m

@@ -1,0 +1,10 @@
+dependencies:
+    - name: gigmatch-backend
+      version: 0.1.0
+      repository: file://../gigmatch-backend
+    - name: gigmatch-frontend
+      version: 0.1.0
+      repository: file://../gigmatch-frontend
+    - name: mongodb
+      version: 13.6.4
+      repository: https://charts.bitnami.com/bitnami
