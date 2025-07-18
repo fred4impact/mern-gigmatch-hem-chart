@@ -28,7 +28,7 @@ service:
   type: ClusterIP
   port: 5001
 env:
-  MONGO_URI: "mongodb://gigmatch-mongodb:27017/gigmatch"
+  MONGODB_URI: "mongodb://gigmatch-mongodb:27017/gigmatch"
 
 ingress:
   enabled: false

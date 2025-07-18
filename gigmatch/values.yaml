@@ -3,7 +3,7 @@ gigmatch-backend:
     tag: latest
   env:
     PORT: 5001
-    MONGO_URI: "mongodb://gigmatch-mongodb:27017/gigmatch"
+    MONGODB_URI: "mongodb://gigmatch-mongodb:27017/gigmatch"
 
   auth:
     enabled: false 
